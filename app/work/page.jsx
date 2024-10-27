@@ -19,36 +19,36 @@ const projects = [
   {
     num: "01",
     category: "front-end",
-    title: "project 1",
-    description: "hello",
+    title: "Fruit and Vegetable ",
+    description: "In this project, I developed a user-friendly front-end interface using HTML, CSS, and JavaScript . My focus was on creating a responsive design that makes navigation easy and intuitive. This project highlights my skills in building functional web applications and delivering great user experiences.",
     stack: [{ name: "Html 5" }, { name: "css 3" }, { name: "javascript" }],
     image: "/assets/restoran.png",
     live: "",
-    github: "",
+    github: "https://github.com/ange-gardien1/fruits-and-vegetables-",
   },
   {
     num: "02",
     category: "fullstack",
-    title: "project 2",
-    description: "hello",
-    stack: [{ name: "next.js" }, { name: "tailwind.css" }, { name: "Node.js" }],
+    title: "KnowledgeHub",
+    description: "I developed Knowledge Hub, an application designed to help users store and share files and documents effectively. This platform facilitates collaboration among users, allowing them to exchange knowledge and manage their resources seamlessly. I integrated AI features to enhance the user experience, making it easier for users to access relevant information and insights from shared resources.",
+    stack: [{ name: "next.js" }, { name: "tailwind.css" }, { name: "Typescript" }],
     image: "/assets/two.png",
-    live: "",
-    github: "",
+    live: " https://knowledge-hub-delta.vercel.app",
+    github: "https://github.com/ange-gardien1/KnowledgeHub",
   },
   {
     num: "03",
-    category: "front-end",
-    title: "project 3",
-    description: "hello",
+    category: "Fullstack",
+    title: "Jire clone",
+    description: "I cloned the JIRA app using Next.js, focusing on creating a seamless user experience for project management. This project showcases my ability to work on both front-end and back-end aspects, integrating features like task management and collaboration tools. I utilized modern technologies to ensure the application is responsive and efficient.",
     stack: [
       { name: "next.js" },
       { name: "tailwind.css" },
       { name: "Typescript" },
     ],
     image: "/assets/mockup3.jpg",
-    live: "",
-    github: "",
+    live: "/",
+    github: "https://github.com/ange-gardien1/KnowledgeHub",
   },
 ];
 const Work = () => {
@@ -74,6 +74,7 @@ const Work = () => {
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                 {project.category}
               </h2>
+              <p>{project.title}</p>
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {

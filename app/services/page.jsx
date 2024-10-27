@@ -6,26 +6,26 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Front-End Engineer",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Software Development",
+    description: "ailored software solutions designed to meet your unique business needs. From concept to deployment, I specialize in full-stack development, creating responsive and scalable applications that enhance productivity and deliver a seamless user experience..",
     href: "",
   },
   {
     num: "02",
-    title: "Back-End Engineer",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "UI/UX Design",
+    description: "Crafting intuitive and visually appealing interfaces that align with user needs. I prioritize usability and aesthetics, creating designs that make interactions smoother, ensuring users enjoy a cohesive and engaging digital journey across devices.",
     href: "",
   },
   {
     num: "03",
     title: "Software Testing",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Ensuring quality and reliability through comprehensive software testing services. I perform thorough testing, from functionality and performance checks to security and usability assessments, identifying potential issues early to deliver robust software.",
     href: "",
   },
   {
     num: "04",
     title: "DevOps",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Streamlining software development and operations for faster, more reliable deployments. Using automation, CI/CD practices, and infrastructure as code, I optimize processes to improve efficiency, reduce downtime, and maintain high system availability.",
     href: "",
   },
 ];

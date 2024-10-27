@@ -9,6 +9,7 @@ import {
   FaNodeJs,
   FaReact,
   FaAngular,
+  FaTypo3
 } from "react-icons/fa";
 
 import {
@@ -29,7 +30,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 const about = {
   title: "About me",
-  description: "hello",
+  description: "I am a creative thinker with a vision for bringing innovative solutions to the world. I believe in the power of creativity to transform challenges into opportunities and am passionate about using technology to make a positive impact.",
   info: [
     {
       fieldName: "Name",
@@ -66,7 +67,7 @@ const about = {
 const experience = {
   icon: "/assets",
   title: "My Experience",
-  description: "hello",
+  description: "With over 2 years of experience in software development, I have contributed to various projects across different domains. This experience has equipped me with strong skills in development, testing, and deployment, and the ability to adapt to project needs quickly. My background includes collaborating with teams to deliver optimized solutions that align with client objectives and market standards.",
   items: [
     {
       company: "Fatherhood Tech",
@@ -79,64 +80,60 @@ const experience = {
       duration: "2024 - 2024",
     },
     {
+        company: "Bethel schoold of Technology",
+        position: "Peer to peer tutor",
+        duration: "2023 - 2024",
+      },
+    {
       company: "Fatherhood Sanctuary",
       position: "Media & I.T Manager ",
       duration: "2021 - 2023",
     },
-    {
-      company: "Bethel schoold of Technology",
-      position: "Peer to peer tutor",
-      duration: "2024 - 2024",
-    },
-    {
-      company: "Bethel schoold of Technology",
-      position: "Peer to peer tutor",
-      duration: "2024 - 2024",
-    },
-    {
-      company: "Bethel schoold of Technology",
-      position: "Peer to peer tutor",
-      duration: "2024 - 2024",
-    },
+ 
+    // {
+    //   company: "Bethel schoold of Technology",
+    //   position: "Peer to peer tutor",
+    //   duration: "2024 - 2024",
+    // },
+    // {
+    //   company: "Bethel schoold of Technology",
+    //   position: "Peer to peer tutor",
+    //   duration: "2024 - 2024",
+    // },
   ],
 };
 
 const education = {
   icon: "/assets",
   title: "My Ducation",
-  description: "hello",
+  description: "I am currently pursuing a Bachelor’s degree in Information Technology at the University of Kigali. I also attended an online boot camp with Bethel School of Technology in Redding, California, where I trained in full-stack development. Additionally, I completed a professional internship with Seven X, gaining hands-on experience in software development and debugging.",
   items: [
     {
-      institution: "Online Cource",
+      institution: "Bethel College",
       degree: "Full Stack Web Development ",
-      duration: "2024",
+      duration: "2023",
     },
     {
-      institution: "Code Academy",
-      degree: "Frent-end developer ",
-      duration: "2024",
+        institution: "Meta Certificate",
+        degree: "Cretificate in Web Development Foundation",
+        duration: "2023",
+      },
+    {
+      institution: "University Of Kigali",
+      degree: "Bachelord in Computer science ",
+      duration: "2020",
     },
     {
-      institution: "Online Cource",
-      degree: "Programming",
-      duration: "2024",
-    },
-    {
-      institution: "Online Cource",
-      degree: "Coding",
-      duration: "2024",
-    },
-    {
-      institution: "Online Cource",
-      degree: "Coding",
-      duration: "2024",
+      institution: "ESTG",
+      degree: "High School Degreen in Computer Science",
+      duration: "2018",
     },
   ],
 };
 
 const skills = {
   title: "My Skills",
-  description: "Helllo",
+  description: "I’m committed to learning and growing my skills. I enjoy problem-solving, work well in a team, and communicate clearly to help ideas flow. This approach helps me stay adaptable and make meaningful contributions in any project.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -165,10 +162,6 @@ const skills = {
     {
       icon: <FaNodeJs />,
       name: "Node.js",
-    },
-    {
-      icon: <FaFigma />,
-      name: "Figma",
     },
     {
       icon: <FaAngular />,
