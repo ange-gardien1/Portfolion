@@ -5,7 +5,7 @@ import "./globals.css";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
