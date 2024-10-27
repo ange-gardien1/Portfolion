@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-// import Header from "../components/header";
+import Header from "../components/header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
-        {/* <Header /> */}
+        <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
       </body>
