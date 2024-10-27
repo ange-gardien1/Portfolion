@@ -42,7 +42,7 @@ export const Home = () => {
             </div>
           </div>
           <div>
-            <Photo/>
+            {/* <Photo/> */}
           </div>
 
         </div>
